@@ -62,8 +62,13 @@
 
         #region Q6
 
-        double Price = 49.99;
-        int cost = Convert.ToInt32(Price);
+        //double Price = 49.99;
+        //int cost = Convert.ToInt32(Price);
+        #endregion
+
+        #region Q7
+        string PagesText = "464";
+        int Pages = Convert.ToInt32(PagesText); // Convert string to int using Convert Class
         #endregion
 
 
