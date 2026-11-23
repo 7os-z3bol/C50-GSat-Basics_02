@@ -73,20 +73,28 @@
 
         #region Q8
 
-        string yearText = "2023";
-        int year = int.Parse(yearText); // Convert string to int using Parse method
+        //string yearText = "2023";
+        //int year = int.Parse(yearText); // Convert string to int using Parse method
 
-        string badText = "abc";
-        try
-        {
-            int badNumber = int.Parse(badText); // This will throw an exception
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine($"Error: '{badText}' is not a valid number.");
-        }
+        //string badText = "abc";
+        //try
+        //{
+        //    int badNumber = int.Parse(badText); // This will throw an exception
+        //}
+        //catch (FormatException)
+        //{
+        //    Console.WriteLine($"Error: '{badText}' is not a valid number.");
+        //}
 
         #endregion
+
+        #region Q9
+
+        int Pages = 464;
+        string PagesText = Pages.ToString(); // Convert int to string using ToString method
+        Console.WriteLine(PagesText.GetType());
+        #endregion
+
 
 
 
