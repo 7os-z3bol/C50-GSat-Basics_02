@@ -54,12 +54,17 @@
 
         #region Q5
 
-        int Pages = 300;
+        //int Pages = 300;
 
-        double size = Pages;
+        //double size = Pages;
 
         #endregion
 
+        #region Q6
+
+        double Price = 49.99;
+        int cost = Convert.ToInt32(Price);
+        #endregion
 
 
     }
