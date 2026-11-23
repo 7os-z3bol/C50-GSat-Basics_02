@@ -90,9 +90,18 @@
 
         #region Q9
 
-        int Pages = 464;
-        string PagesText = Pages.ToString(); // Convert int to string using ToString method
-        Console.WriteLine(PagesText.GetType());
+        //int Pages = 464;
+        //string PagesText = Pages.ToString(); // Convert int to string using ToString method
+        //Console.WriteLine(PagesText.GetType());
+        #endregion
+
+        #region Q10
+        int Copies = 100;
+        object CopiesObject = Copies; // Boxing: int to object
+        Console.WriteLine(CopiesObject);
+
+        int CopiesUnboxed = (int)CopiesObject; // Unboxing: object to int
+        Console.WriteLine(CopiesUnboxed);
         #endregion
 
 
