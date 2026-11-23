@@ -105,14 +105,19 @@
         #endregion
 
         #region Q11
-        int? year = null;
-        Console.WriteLine(year.HasValue);
-        year = 2023;
-        Console.WriteLine(year.HasValue);
-        Console.WriteLine(year);
+        //int? year = null;
+        //Console.WriteLine(year.HasValue);
+        //year = 2023;
+        //Console.WriteLine(year.HasValue);
+        //Console.WriteLine(year);
 
         #endregion
 
+
+        #region Q12
+        string? Book = null;
+        Console.WriteLine(Book);
+        #endregion
 
 
 
