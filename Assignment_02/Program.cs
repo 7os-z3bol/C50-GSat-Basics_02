@@ -2,6 +2,7 @@
 {
     static void Main(string[] args)
     {
+       
         // --> Question 1
         // Create an object of the Book class
 
@@ -12,10 +13,20 @@
 
 
         Console.WriteLine($"Book: {book1.Title}, Pages: {book1.Pages}");
+
+        //--> Question 2
+
+        
+        Console.WriteLine(book1.ToString());
+       Console.WriteLine(book1.GetHashCode());
+       Console.WriteLine(book1.Equals(book1));
+       Console.WriteLine(book1.GetType());
+        
+
     }
     #region Class Book
 
-    
+
     class Book
     {
         public string Title;
