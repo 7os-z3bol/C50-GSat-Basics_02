@@ -96,12 +96,21 @@
         #endregion
 
         #region Q10
-        int Copies = 100;
-        object CopiesObject = Copies; // Boxing: int to object
-        Console.WriteLine(CopiesObject);
+        //int Copies = 100;
+        //object CopiesObject = Copies; // Boxing: int to object
+        //Console.WriteLine(CopiesObject);
 
-        int CopiesUnboxed = (int)CopiesObject; // Unboxing: object to int
-        Console.WriteLine(CopiesUnboxed);
+        //int CopiesUnboxed = (int)CopiesObject; // Unboxing: object to int
+        //Console.WriteLine(CopiesUnboxed);
+        #endregion
+
+        #region Q11
+        int? year = null;
+        Console.WriteLine(year.HasValue);
+        year = 2023;
+        Console.WriteLine(year.HasValue);
+        Console.WriteLine(year);
+
         #endregion
 
 
