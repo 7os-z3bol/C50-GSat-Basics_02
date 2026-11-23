@@ -33,7 +33,7 @@
         #endregion
 
         #region Q 4
-        
+        /*
                 int x = 10;
                 int y = 0;
                 try
@@ -48,7 +48,16 @@
                         {
                     Console.WriteLine("Done");
                 }
-          
+          */
+        #endregion
+
+
+        #region Q5
+
+        int Pages = 300;
+
+        double size = Pages;
+
         #endregion
 
 
