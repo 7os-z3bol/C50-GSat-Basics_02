@@ -28,9 +28,29 @@
 
         // --> Question 3
 
-          int Pages = 464; // This is allowed because Pages is an integer and can be assigned an integer value. 
+        // int Pages = 464; // This is allowed because Pages is an integer and can be assigned an integer value. 
 
         #endregion
+
+        #region Q 4
+        
+                int x = 10;
+                int y = 0;
+                try
+                {
+                    Console.WriteLine(x/y);
+                }
+                catch (DivideByZeroException)
+                {
+                    Console.WriteLine("Error: Division by zero is not allowed.");
+                }
+                finally
+                        {
+                    Console.WriteLine("Done");
+                }
+          
+        #endregion
+
 
 
     }
