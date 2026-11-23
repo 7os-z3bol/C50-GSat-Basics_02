@@ -67,9 +67,27 @@
         #endregion
 
         #region Q7
-        string PagesText = "464";
-        int Pages = Convert.ToInt32(PagesText); // Convert string to int using Convert Class
+        //string PagesText = "464";
+        //int Pages = Convert.ToInt32(PagesText); // Convert string to int using Convert Class
         #endregion
+
+        #region Q8
+
+        string yearText = "2023";
+        int year = int.Parse(yearText); // Convert string to int using Parse method
+
+        string badText = "abc";
+        try
+        {
+            int badNumber = int.Parse(badText); // This will throw an exception
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine($"Error: '{badText}' is not a valid number.");
+        }
+
+        #endregion
+
 
 
     }
